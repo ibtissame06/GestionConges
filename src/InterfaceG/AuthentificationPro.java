@@ -104,8 +104,8 @@ public class AuthentificationPro extends JFrame {
 		frame.getContentPane().add(ButtonSConnect);
 
 		lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon(
-				"C:\\Users\\ibtis\\Desktop\\Projet GestionConges\\gray-white-futuristic-technology-background-vector_53876-85332.jpg"));
+		lblNewLabel.setIcon(new ImageIcon(AuthentificationPro.class
+				.getResource("/InterfaceG/gray-white-futuristic-technology-background-vector_53876-85332.jpg")));
 		lblNewLabel.setBounds(0, -14, 909, 436);
 		frame.getContentPane().add(lblNewLabel);
 
